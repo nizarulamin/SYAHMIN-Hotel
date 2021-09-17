@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+   <servlet>
+     <servlet-name>R1</servlet-name>
+     <servlet-class>package1.RegisterServlet</servlet-class>
+   </servlet>
+   <servlet>
+     <servlet-name>R2</servlet-name>
+     <servlet-class>package1.BookingServlet</servlet-class>
+   </servlet>
+   <servlet>
+     <servlet-name>R3</servlet-name>
+     <servlet-class>package1.DeleteServlet</servlet-class>
+   </servlet>
+   <servlet>
+     <servlet-name>L1</servlet-name>
+     <servlet-class>package1.LoginServlet</servlet-class>
+   </servlet>
+   <servlet>
+     <servlet-name>R4</servlet-name>
+     <servlet-class>package1.PaymentServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+       <servlet-name>R1</servlet-name>
+       <servlet-class>/RegisterServlet</servlet-class>
+   </servlet-mapping>
+   <servlet-mapping>
+       <servlet-name>R2</servlet-name>
+       <servlet-class>/BookingServlet</servlet-class>
+   </servlet-mapping>
+   <servlet-mapping>
+       <servlet-name>R3</servlet-name>
+       <servlet-class>/DeleteServlet</servlet-class>
+   </servlet-mapping>
+   <servlet-mapping>
+       <servlet-name>L1</servlet-name>
+       <servlet-class>/LoginServlet</servlet-class>
+   </servlet-mapping>
+   <servlet-mapping>
+       <servlet-name>R4</servlet-name>
+       <servlet-class>/PaymentServlet</servlet-class>
+   </servlet-mapping>
+
+   <welcome-file-list>
+   <welcome-file>index.jsp</welcome-file>
+   </welcome-file-list>
+   
+  </web-app>
